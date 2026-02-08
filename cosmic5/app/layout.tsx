@@ -15,23 +15,9 @@ export const metadata: Metadata = {
   description:
     "서양 점성술과 동양 사주를 결합한 프리미엄 운세 서비스. 별자리와 오행의 조화로 당신의 오늘을 읽어드립니다.",
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  // Icons: using app/favicon.ico (default). Add icon-light-32x32.png, icon-dark-32x32.png,
+  // icon.svg, and apple-icon.png to public/ if you want custom icons.
+  icons: { icon: "/favicon.ico", apple: "/favicon.ico" },
 };
 
 export const viewport: Viewport = {
